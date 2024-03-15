@@ -13,10 +13,10 @@
 
     <header>
     <img src="./resources/images/ic-logo.svg" alt="Colmar logo">
-    <span class="colmar">Colmar</span>
-    <span class="academy">Academy</span>
+    <a href=""><span class="colmar">Colmar</span></a>
+    <a href=""><span class="academy">Academy</span></a>
     <ul>
-      <a href="#">Oncampus</a>
+      <a href="#">On campus</a>
       <a href="#">Online</a>
       <a href="#">or companies</a>
       <a href="#">Sign in</a>
@@ -25,55 +25,78 @@
 
     <!-- Banner section -->
 
-  <main>
+  
     <section class="banner">
         <img src="./resources/images/banner.jpg"   alt="">
         <div class="banner-text">
         <h1>Learn something new everyday</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <input type="button" value="Start here">
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <a href="#"><input type="button" value="Start here"></a>
         </div>
     </section>
+
+    <!-- Main information section -->
+    <main>
     <section class="main-information">
-      <div class="main-informatiion">
+      <div class="info">
         <img src="./resources/images/information-main.jpg" alt="">
-       <h2>It doesn't hurt to keep practicing</h2>
-        <p>Veritatis delectus dicta laborum in, expedita minus? Suscipit illum possimus, odio voluptate autem provident excepturi id beatae consectetur repellendus enim assumenda quaerat.</p>
-        <p class="small">Emanuel, Sr Strategist at Hirin.com</p>
-      </div>
-      <div class="orientation">
-        <img src="./resources/images/information-orientation.jpg" alt="">
-        <h4>Orientation date</h4>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-       <a href="#">Read more</a>
-      </div>
-      <div class="our-campus">
-        <h4>Our campus</h4>
-        <p>Find which campus is close by you</p>
-       <a href="#">Read more</a>
-      </div>
-      <div class="our-guest">
-        <h4>Our guest  lecture</h4>
-        <p>Join a keynote Oliver Sack about music in medical treatment</p>
-        <a href="#">Read more</a>
+       <div class="info-text">
+         <h2>It doesn't hurt to keep practicing</h2>
+          <p>"Veritatis delectus dicta laborum in, expedita minus? Suscipit illum possimus, odio voluptate autem provident excepturi id beatae consectetur repellendus enim assumenda quaerat."</p>
+          <p class="small">Emanuel, Sr Strategist at Hirin.com</p>
+       </div>
       </div>
     </section>
+
+      <!-- Location section -->
+
+    <section class="location">
+      <div class="orientation">
+        <img src="./resources/images/information-orientation.jpg" alt="">
+        <div class="location-text">
+          <h4>Orientation date</h4>
+          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      <hr>
+      <div class="our-campus">
+        <img src="./resources/images/information-campus.jpg" alt="">
+        <div class="location-text">
+          <h4>Our campus</h4>
+          <p>Find which campus is close by you</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      <div class="our-guest">
+        <img src="./resources/images/information-guest-lecture.jpg" alt="">
+        <div class="location-text">
+          <h4>Our guest  lecture</h4>
+          <p>Join a keynote Oliver Sack about music in medical treatment</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+  </main>
+    
 
     <!-- Cours section -->
 
+    <h2 class="center-text">Start learning</h2>
     <section class="cours">
-      <h2>Start learning</h2>
+      
+         
       <div class="software">
-         <img src="./resources/images/course-software.jpg" alt="two computers">
+        <img src="./resources/images/course-software.jpg" alt="two computers">
         <h4>Softwear engineering</h4>
         <h6>COURSES</h6>
-        <p>Web development, Mobile development, iOT, APIs</p>
+        <p>Web development, Mobile development, iOT, APIs</p> 
       </div>
       <div class="art">
         <img src="./resources/images/course-computer-art.jpg" alt="two computers">
         <h4>Computer art</h4>
         <h6>COURSES</h6>
-        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p> 
       </div>
       <div class="design">
         <img src="./resources/images/course-design.jpg" alt="two computers">
@@ -85,41 +108,57 @@
         <img src="./resources/images/course-data.jpg">
         <h4>Data</h4>
         <h6>COURSES</h6>
-        <p>Data Science, Big Data, SQL, Data Visualization</p>
+        <p>Data Science, Big Data, SQL, Data Visualization</p> 
       </div>
       <div class="business">
-        <img src="./resources/images/course-business.jpg">
+       <img src="./resources/images/course-business.jpg">
         <h4>Business</h4>
         <h6>COURSES</h6>
-        <p>Product Development, Business Development, Startup</p>
+        <p>Product Development, Business Development, Startup</p> 
       </div>
       <div class="marketing">
-        <img src="./resources/images/course-marketing.jpg">
+      <img src="./resources/images/course-marketing.jpg">
         <h4>Marketing</h4>
         <h6>COURSES</h6>
-        <p>Analytics, Content Marketing, Mobile Markering</p>
-      </div>
+        <p>Analytics, Content Marketing, Mobile Markering</p>       </div>
     </section>
 
     <!-- Thesis section -->
 
+    <h2 class="center-text">Thesis exhibit</h2>
     <section class="thesis">
-      <h2>Thesis exchibit</h2>
-      <div class="urban">
-        <video src="./resources/videos/thesis.mp4" muted ></video>
+      <div class="video-container">
+        <video src="./resources/videos/thesis.mp4" muted controls></video>
         <h4>Reimagine urban</h4>
-        <p>Nulla ducimus eaque odio modi aliquam, ab, architecto voluptatem reiciendis quibusdam, voluptatibus aspernatur delectus. Maxime, quibusdam quam minima nesciunt recusandae quasi corporis!</p>
+          <p>Nulla ducimus eaque odio modi aliquam, ab, architecto voluptatem reiciendis quibusdam, voluptatibus aspernatur delectus. Maxime, quibusdam quam minima nesciunt recusandae quasi corporis!</p>
       </div>
-    </section>
-  </main>
+      <div class="right-section">
+        <div class="section-1">
+            <img src="./resources/images/thesis-fisma.jpg" alt="">
+            <div class="right-section-text-1">
+              <h4> Fisma: Design and Phototype</h4>
+              <p>Designer showcase of new prototype product</p>
+            </div>
+          
+        </div>
+            <div class="section-2">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="">
+            <div class="right-section-text-2">
+            <h4> Now and then</h4>
+            <p>Research study about New York</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section> 
+  
   
   <!-- Footer -->
 
   <footer>
-      <p class="copyright">© 2016 Colmar Academy. All rights reserved</p>
-      <p>Terms Privacy</p>
-  </footer>
-  
+      <span class="copyright">© 2016 Colmar Academy. All rights reserved</span>
+      <span class="terms">Terms Privacy</span>
+  </footer> 
   
 </body>
 </html>
